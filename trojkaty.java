@@ -1,4 +1,5 @@
 /**
+
 * To jest program do rozpoznawania trójkąta.
 */
 
@@ -14,6 +15,14 @@ class Trojkaty {
              System.out.println("Trójkąt równoboczny"); 
          }
          // TODO: tutaj trzeba bedzie dopisac inne przypadki
+
+
+ if (a == b && b == c && a == c) {
+                    System.out.println("Trójkąt równoboczny");
+                }
+                if (a == b || b == c || a == c) {
+                    System.out.println("Trójkąt równoramienny");
+                }
     }
     /** Wyświetla ekran pomocy */
     public static void pomoc(){
